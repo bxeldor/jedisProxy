@@ -1,0 +1,128 @@
+2015 -06-15 11:05:07 ip地址：10.73.11.21, 30000
+2015 -06-15 11:06:43 ip地址：10.73.11.21, 30000
+2015 -06-15 11:07:52 ip地址：10.73.11.21, 30000
+2015 -06-15 11:16:10 ip地址：10.73.11.21, 30000
+2015 -06-15 11:32:38 获取Proxyinfo出错
+2015 -06-15 11:37:08 获取Proxyinfo出错
+2015 -06-15 11:37:09 获取Proxyinfo出错
+2015 -06-15 11:37:09 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:37:09 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:37:09 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:37:09 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:39:19 获取Proxyinfo出错
+2015 -06-15 11:39:19 cn.sina.dsp.jedisproxy.JedisProxy@15575e0 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:39:19 cn.sina.dsp.jedisproxy.JedisProxy@15575e0 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:39:19 cn.sina.dsp.jedisproxy.JedisProxy@15575e0 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:39:19 cn.sina.dsp.jedisproxy.JedisProxy@15575e0 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:39:19 获取Proxyinfo出错
+2015 -06-15 11:41:03 获取Proxyinfo出错
+2015 -06-15 11:41:03 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:41:03 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:41:03 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:41:03 cn.sina.dsp.jedisproxy.JedisProxy@1addb59 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-15 11:41:03 获取Proxyinfo出错
+2015 -06-15 11:46:20 ip地址：10.73.11.21, 30000
+2015 -06-15 11:46:20 REDIS (10.73.11.21)null set error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1635)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1611)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1607)
+	at cn.sina.dsp.jedisproxy.JedisProxy.set(JedisProxy.java:549)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.testSet(JedisProxyTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -06-15 11:46:37 ip地址：10.73.11.21, 30000
+2015 -06-15 11:46:37 REDIS (10.73.11.21)null get error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -491
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1635)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1611)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1607)
+	at cn.sina.dsp.jedisproxy.JedisProxy.get(JedisProxy.java:311)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.testSet(JedisProxyTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -06-15 11:46:41 ip地址：10.73.11.21, 30000
+2015 -06-15 11:46:41 REDIS (10.73.11.21)null get error:
+java.lang.ClassCastException: [B cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1635)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1611)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1607)
+	at cn.sina.dsp.jedisproxy.JedisProxy.get(JedisProxy.java:590)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.testSet(JedisProxyTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -06-15 11:49:22 ip地址：10.73.11.21, 30000
+2015 -06-15 11:49:22 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -06-15 11:49:22 REDIS (10.73.11.21)null get, key: testSet result:testValue
+2015 -06-15 11:49:22 REDIS (10.73.11.21)null get, key: testSet result:[B@1f64158
+2015 -06-15 13:38:09 获取Proxyinfo出错

@@ -1,0 +1,2321 @@
+2015 -05-19 11:07:21 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:21 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:22 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 11:07:22 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null hmgetPipeline error:
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmgetPipeline(JedisProxy.java:246)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:24 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 11:07:24 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zrangeByScore error:
+java.lang.ClassCastException: redis.clients.jedis.BinaryJedis$SetFromList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrangeByScore(JedisProxy.java:1288)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrangeByScore(JedisProxyTest.java:677)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:24 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[]
+2015 -05-19 11:07:24 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null zrangeByScoreWithScores error:
+java.lang.ClassCastException: java.util.LinkedHashSet cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrangeByScoreWithScores(JedisProxy.java:1320)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrangeByScoreWithScoresWithOffsetCount(JedisProxyTest.java:724)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:24 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null expireat, key: exp_k1 result:1
+2015 -05-19 11:07:24 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 11:07:28 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 11:07:28 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 11:07:28 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 11:07:28 REDIS (10.73.11.21)null ttl, key: exp_k1 result:3
+2015 -05-19 11:07:28 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get error:
+java.lang.NullPointerException
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.get(JedisProxy.java:272)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.expireCommans(JedisProxyTest.java:883)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null ttl, key: exp_k1 result:2
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get, key: testSet result:testValue
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get, key: testSet result:[B@1982fc1
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null set, key: test1 result:OK
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null decrBy, key: test1 result:3
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get, key: test1 result:3
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null set, key: testincrBy result:OK
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null incrBy, key: testincrBy result:7
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get, key: testincrBy result:7
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null lpush, key: testlindex result:19
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null lpush, key: testlindex result:20
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null lpush, key: testlindex result:21
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null lindex, key: testlindex result:1
+2015 -05-19 11:07:33 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:33 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zrevrank error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrevrank(JedisProxy.java:1218)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrevrank(JedisProxyTest.java:736)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 11:07:34 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 11:07:34 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 11:07:34 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:34 REDIS (10.73.11.21)null del fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 11:07:34 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:35 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:36 cn.sina.dsp.jedisproxy.JedisProxy@9d6065 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:36 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:37 cn.sina.dsp.jedisproxy.JedisProxy@9d6065 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:37 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:38 cn.sina.dsp.jedisproxy.JedisProxy@ae533a del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:38 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:39 cn.sina.dsp.jedisproxy.JedisProxy@ae533a del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:39 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:40 cn.sina.dsp.jedisproxy.JedisProxy@ae533a getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:40 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:41 cn.sina.dsp.jedisproxy.JedisProxy@ae533a getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:41 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:42 cn.sina.dsp.jedisproxy.JedisProxy@ae533a getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:42 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:43 cn.sina.dsp.jedisproxy.JedisProxy@ae533a getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:43 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:44 cn.sina.dsp.jedisproxy.JedisProxy@542529 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:44 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:45 cn.sina.dsp.jedisproxy.JedisProxy@542529 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:45 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:46 cn.sina.dsp.jedisproxy.JedisProxy@542529 zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:46 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:47 cn.sina.dsp.jedisproxy.JedisProxy@542529 zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:47 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:48 cn.sina.dsp.jedisproxy.JedisProxy@e51b2c zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:48 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:49 cn.sina.dsp.jedisproxy.JedisProxy@e51b2c zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:49 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:50 cn.sina.dsp.jedisproxy.JedisProxy@e51b2c zscore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:50 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:51 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:51 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:51 cn.sina.dsp.jedisproxy.JedisProxy@e51b2c zscore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:51 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:52 cn.sina.dsp.jedisproxy.JedisProxy@171f189 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:52 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:54 cn.sina.dsp.jedisproxy.JedisProxy@171f189 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:54 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:54 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:54 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:55 cn.sina.dsp.jedisproxy.JedisProxy@171f189 pfadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:55 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:55 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:56 cn.sina.dsp.jedisproxy.JedisProxy@171f189 pfadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:56 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:56 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:57 cn.sina.dsp.jedisproxy.JedisProxy@171f189 pfcount fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:57 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:57 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:57 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:58 cn.sina.dsp.jedisproxy.JedisProxy@171f189 pfcount fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:58 ip地址：10.73.11.21, 22223
+2015 -05-19 11:07:59 cn.sina.dsp.jedisproxy.JedisProxy@1142196 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:07:59 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:00 cn.sina.dsp.jedisproxy.JedisProxy@1142196 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:00 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:01 cn.sina.dsp.jedisproxy.JedisProxy@1142196 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:01 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:02 cn.sina.dsp.jedisproxy.JedisProxy@1142196 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:02 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:03 cn.sina.dsp.jedisproxy.JedisProxy@4865ce set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:03 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:03 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:03 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:04 cn.sina.dsp.jedisproxy.JedisProxy@4865ce set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:04 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:04 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:04 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:05 cn.sina.dsp.jedisproxy.JedisProxy@4865ce decr fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:05 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:05 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:05 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:06 cn.sina.dsp.jedisproxy.JedisProxy@4865ce get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:06 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:06 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:06 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:07 cn.sina.dsp.jedisproxy.JedisProxy@4865ce get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:07 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:07 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:07 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:08 cn.sina.dsp.jedisproxy.JedisProxy@4c47db hset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:08 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:08 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:08 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:09 cn.sina.dsp.jedisproxy.JedisProxy@4c47db hset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:09 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:09 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:09 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:10 cn.sina.dsp.jedisproxy.JedisProxy@4c47db hget fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:10 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:10 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:11 cn.sina.dsp.jedisproxy.JedisProxy@4c47db hget fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:11 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:11 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:12 cn.sina.dsp.jedisproxy.JedisProxy@16be68f hmset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:12 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:13 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:13 cn.sina.dsp.jedisproxy.JedisProxy@16be68f hmset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:13 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:14 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:14 cn.sina.dsp.jedisproxy.JedisProxy@16be68f hlen fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:14 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:15 cn.sina.dsp.jedisproxy.JedisProxy@16be68f hlen fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:15 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:16 cn.sina.dsp.jedisproxy.JedisProxy@19a029e hset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:16 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:17 ip地址：10.73.11.21, 22223
+2015 -05-19 11:08:17 cn.sina.dsp.jedisproxy.JedisProxy@19a029e hset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 11:08:17 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:09 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:10 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:06:10 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:10 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:06:11 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null hmgetPipeline error:
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmgetPipeline(JedisProxy.java:246)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zrangeByScore error:
+java.lang.ClassCastException: redis.clients.jedis.BinaryJedis$SetFromList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrangeByScore(JedisProxy.java:1288)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrangeByScore(JedisProxyTest.java:677)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[[B@fefe3f]
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null zrangeByScoreWithScores error:
+java.lang.ClassCastException: java.util.LinkedHashSet cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrangeByScoreWithScores(JedisProxy.java:1320)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrangeByScoreWithScoresWithOffsetCount(JedisProxyTest.java:724)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null expireat, key: exp_k1 result:1
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: testSet result:testValue
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: testSet result:[B@1e4853f
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null set, key: test1 result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null decrBy, key: test1 result:3
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: test1 result:3
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null set, key: testincrBy result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null incrBy, key: testincrBy result:7
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: testincrBy result:7
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 15:06:12 REDIS (10.73.11.21)null get, key: testSet result:testValue
+2015 -05-19 15:06:12 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null lpush, key: testlindex result:22
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null lpush, key: testlindex result:23
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null lpush, key: testlindex result:24
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null lindex, key: testlindex result:1
+2015 -05-19 15:06:13 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zrevrank, key: zset result:0
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 15:06:13 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 15:06:13 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:13 REDIS (10.73.11.21)null del fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 15:06:13 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:14 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:15 cn.sina.dsp.jedisproxy.JedisProxy@e49dcd zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:15 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:16 cn.sina.dsp.jedisproxy.JedisProxy@e49dcd zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:16 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:17 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:17 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:18 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:18 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:19 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:19 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:20 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:20 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:21 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:21 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:22 cn.sina.dsp.jedisproxy.JedisProxy@10b9279 getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:22 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:23 cn.sina.dsp.jedisproxy.JedisProxy@7bc899 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:23 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:24 cn.sina.dsp.jedisproxy.JedisProxy@7bc899 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:24 ip地址：10.73.11.21, 22223
+2015 -05-19 15:06:25 cn.sina.dsp.jedisproxy.JedisProxy@7bc899 zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:06:25 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:26 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:19:26 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[]
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[]
+2015 -05-19 15:19:26 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49],1.0]]
+2015 -05-19 15:19:26 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null expireat, key: exp_k1 result:1
+2015 -05-19 15:19:26 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null ttl, key: exp_k1 result:-1
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null set, key: test1 result:OK
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null decrBy, key: test1 result:3
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null get, key: test1 result:5
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null set, key: testincrBy result:OK
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null incrBy, key: testincrBy result:7
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null get, key: testincrBy result:5
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null get, key: testSet result:testValue
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null lpush, key: testlindex result:25
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null lpush, key: testlindex result:26
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null lpush, key: testlindex result:27
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null lindex, key: testlindex result:2
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null zrevrank, key: zset result:0
+2015 -05-19 15:19:30 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 15:19:30 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:31 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:19:31 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 15:19:31 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 15:19:31 REDIS (10.73.11.21)null zcount, key: zset result:0
+2015 -05-19 15:19:31 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:31 REDIS (10.73.11.21)null del fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 15:19:31 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:32 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:33 cn.sina.dsp.jedisproxy.JedisProxy@701a27 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:19:33 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:34 cn.sina.dsp.jedisproxy.JedisProxy@701a27 zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:19:34 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:35 cn.sina.dsp.jedisproxy.JedisProxy@131303f del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:19:35 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:36 cn.sina.dsp.jedisproxy.JedisProxy@131303f del fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:19:36 ip地址：10.73.11.21, 22223
+2015 -05-19 15:19:37 cn.sina.dsp.jedisproxy.JedisProxy@131303f getset fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:19:37 ip地址：10.73.11.21, 22223
+2015 -05-19 15:25:27 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:25:27 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:25:28 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:25:28 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:25:28 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:28 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 15:25:28 REDIS (10.73.11.21)null zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 15:25:28 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:29 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:30 cn.sina.dsp.jedisproxy.JedisProxy@1fd6bea zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:30 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:31 cn.sina.dsp.jedisproxy.JedisProxy@1fd6bea zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:31 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:32 cn.sina.dsp.jedisproxy.JedisProxy@1fd6bea zrangeByScoreWithScores fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:32 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:33 cn.sina.dsp.jedisproxy.JedisProxy@1fd6bea zrangeByScoreWithScores fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:33 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:34 cn.sina.dsp.jedisproxy.JedisProxy@90c06f set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:34 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:35 cn.sina.dsp.jedisproxy.JedisProxy@90c06f set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:35 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:36 cn.sina.dsp.jedisproxy.JedisProxy@90c06f expireat fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:36 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:37 cn.sina.dsp.jedisproxy.JedisProxy@90c06f expireat fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:37 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:38 cn.sina.dsp.jedisproxy.JedisProxy@aadc97 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:38 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:39 cn.sina.dsp.jedisproxy.JedisProxy@aadc97 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:39 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:40 cn.sina.dsp.jedisproxy.JedisProxy@aadc97 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:40 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:41 cn.sina.dsp.jedisproxy.JedisProxy@aadc97 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:41 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:42 cn.sina.dsp.jedisproxy.JedisProxy@419d05 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:42 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:43 cn.sina.dsp.jedisproxy.JedisProxy@419d05 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:43 ip地址：10.73.11.21, 22222
+2015 -05-19 15:25:44 cn.sina.dsp.jedisproxy.JedisProxy@419d05 decrBy fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:25:44 ip地址：10.73.11.21, 22222
+2015 -05-19 15:49:54 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:49:54 REDIS (10.73.11.21)null hmgetPipeline fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 15:49:54 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:55 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:56 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zrem fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:49:56 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:57 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zrem fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:49:57 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:58 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:49:58 ip地址：10.73.11.21, 22223
+2015 -05-19 15:49:59 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:49:59 ip地址：10.73.11.21, 22223
+2015 -05-19 15:50:00 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:50:00 ip地址：10.73.11.21, 22223
+2015 -05-19 15:50:01 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zadd fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:50:01 ip地址：10.73.11.21, 22223
+2015 -05-19 15:50:02 cn.sina.dsp.jedisproxy.JedisProxy@ba5c7a zrangeByScore fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -05-19 15:50:02 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:16 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:54:16 REDIS (10.73.11.21)null hmgetPipeline fail:redis.clients.jedis.exceptions.JedisConnectionException: Unexpected end of stream.
+2015 -05-19 15:54:16 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:51 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:51 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:54:51 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:51 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:54:51 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:54:52 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:54:52 ip地址：10.73.11.21, 22223
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:54:52 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:54:56 REDIS (10.73.11.21)null hmgetPipeline fail:redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+2015 -05-19 15:54:56 ip地址：10.73.11.21, 22223
+2015 -05-19 15:56:55 ip地址：10.73.11.21, 22223
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:56:55 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:58:00 ip地址：10.73.11.21, 22223
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:58:00 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 15:58:34 ip地址：10.73.11.21, 22223
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmgetPipeline error:
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmgetPipeline(JedisProxy.java:246)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 15:58:34 ip地址：10.73.11.21, 22223
+2015 -05-19 15:58:34 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 16:00:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 16:00:16 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 16:00:20 REDIS (10.73.11.21)null hmgetPipeline fail:redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+2015 -05-19 16:00:20 ip地址：10.73.11.21, 22223
+2015 -05-19 16:25:54 ip地址：10.73.11.21, 22223
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:750)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmset(JedisProxy.java:761)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:25:55 ip地址：10.73.11.21, 22223
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmgetPipeline error:
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmgetPipeline(JedisProxy.java:246)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:25:55 ip地址：10.73.11.21, 22223
+2015 -05-19 16:25:55 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 16:27:01 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 16:27:01 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[]
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[]
+2015 -05-19 16:27:01 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49],1.0]]
+2015 -05-19 16:27:01 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null expireat, key: exp_k1 result:1
+2015 -05-19 16:27:01 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 16:27:05 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 16:27:05 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 16:27:05 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 16:27:05 REDIS (10.73.11.21)null ttl, key: exp_k1 result:3
+2015 -05-19 16:27:05 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 16:27:09 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 16:27:09 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 16:27:09 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 16:27:09 REDIS (10.73.11.21)null ttl, key: exp_k1 result:3
+2015 -05-19 16:27:09 REDIS (10.73.11.21)null persist, key: exp_k1 result:1
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null set, key: test1 result:OK
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null decrBy, key: test1 result:3
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null get, key: test1 result:3
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null set, key: testincrBy result:OK
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null incrBy, key: testincrBy result:7
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null get, key: testincrBy result:7
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null lpush, key: testlindex result:28
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null lpush, key: testlindex result:29
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null lpush, key: testlindex result:30
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null lindex, key: testlindex result:3
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null lindex, key: testlindex result:[B@26d607
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null zrevrank, key: zset result:0
+2015 -05-19 16:27:13 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:27:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zcount, key: zset result:0
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null del, key: [zset] result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zrange, key: zset result:[]
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zrange, key: zset result:[[B@e79839]
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null del error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.del(JedisProxy.java:576)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.getsetBinaryCommand(JedisProxyTest.java:850)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null getset, key: test result:[B@b1aebf
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[[B@da18ac]
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zadd error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zadd(JedisProxy.java:1124)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zincrby(JedisProxyTest.java:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zscore, key: zset result:1.0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zincrby, key: zset result:2.0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null zscore, key: zset result:1.0
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null del, key: [pfkey1] result:0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null pfadd fail:redis.clients.jedis.exceptions.JedisDataException: ERR unknown command 'PFADD'
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null pfcount fail:redis.clients.jedis.exceptions.JedisDataException: ERR unknown command 'PFCOUNT'
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null set error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -498
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.set(JedisProxy.java:511)
+	at cn.sina.dsp.jedisproxy.JedisProxy.set(JedisProxy.java:522)
+	at cn.sina.dsp.jedisproxy.JedisProxy.set(JedisProxy.java:527)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.del(JedisProxyTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null del, key: [test, noExist] result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null get, key: test result:-1024
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null set, key: testdecr result:OK
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null decr, key: testdecr result:4
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null get, key: testdecr result:5
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hset, key: testhdel result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hget, key: testhdel result:123
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hdel, key: testhdel result:1
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hget, key: testhdel result:123
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hmset, key: testhlen result:OK
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hlen, key: testhlen result:2
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hlen, key: testhlen result:2
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hset, key: testhset result:0
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hget, key: testhset result:va
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null hget, key: testhset result:[B@10ffb38
+2015 -05-19 16:27:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null set, key: testincr result:OK
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null incr, key: testincr result:6
+2015 -05-19 16:27:14 REDIS (10.73.11.21)null get, key: testincr result:5
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testllen result:3
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null llen, key: testllen result:2
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testllen result:4
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null llen, key: testllen result:4
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null del, key: testlrem result:true
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:3
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:4
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:5
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrem, key: testlrem result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testlrem result:[3, 2, 3, 2]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:5
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:6
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrem, key: testlrem result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testlrem result:[4, 3, 2]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:6
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlrem result:7
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrem, key: testlrem result:2
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testlrem result:[5, 5, 4, 3, 2, 3, 2]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlset result:4
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlset result:5
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlset result:6
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lindex, key: testlset result:3
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null set, key: testmget result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null set, key: test2 result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null set, key: test3 result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3, noExist] result:[1, 2, 3, null]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3, noExist] result:[1, 2, 3, null]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3] result:[[B@61736e, [B@1e13e07, [B@af72d8]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null mset, key: [testmset, 1, test2, 2, test3, 3] result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null mget, key: [testmset, test2, test3, noExist] result:[null, 2, 3, null]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zscore, key: zset result:null
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmset, key: testkeys result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hkeys, key: testkeys result:[]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmset, key: testhmget result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmget, key: testhmget result:[v1, vb]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmget, key: testhmget result:[v1, vb]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmget, key: testhmget result:[[B@16dfa45, [B@149eb9f]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hmset, key: testhvals result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hvals, key: testhvals result:[vb, v1]
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null hvals, key: testhvals result:[[B@1a85d38, [B@8046f4]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null del, key: testlpush result:true
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlpush result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlpush result:2
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testlpush result:3
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testlpush result:[3, 2, 1]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null del, key: testltrim result:true
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testltrim result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testltrim result:2
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lpush, key: testltrim result:3
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null ltrim, key: testltrim result:OK
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testltrim result:[3, 2, 1]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null del, key: testrpush result:true
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null rpush, key: testrpush result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null rpush, key: testrpush result:2
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null rpush, key: testrpush result:3
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null lrange, key: testrpush result:[1, 2]
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zcard, key: zset result:0
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 16:27:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:27:15 REDIS (10.73.11.21)null zremrangeByScore, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zcard error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zcard(JedisProxy.java:1258)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zremrangeByScore(JedisProxyTest.java:626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null set, key: test result:OK
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: test result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null get, key: test result:-1024
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: testhmexists result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hexists, key: testhmexists result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hmexists, key: testhmexists result:[true, true, false]
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hmset, key: testhgetAll result:OK
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hgetAll, key: testhgetAll result:{}
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhincrBy result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hincrBy, key: testhincrBy result:3
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hget, key: testhincrBy result:3
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hincrBy, key: testhincrBy result:5
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hget, key: testhincrBy result:3
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: zset result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zrevrangeWithScores, key: zset result:[[[109, 101, 109, 49, 50],3.0], [[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null set, key: testexists result:OK
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null exists, key: testexists result:false
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: test result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null getset, key: test result:-1024
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: testhmdelete result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmdelete result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmdelete result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmdelete result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hmdelete, key: testhmdelete result:[1, 1]
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hkeys, key: testhmdelete result:[f3, f2, f1]
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null del, key: testhmexists result:true
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null hmexists, key: testhmexists result:[true, true, false]
+2015 -05-19 16:27:16 ip地址：10.73.11.21, 22223
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zcard, key: zset result:4
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zremrangeByRank, key: zset result:1
+2015 -05-19 16:27:16 REDIS (10.73.11.21)null zcard, key: zset result:3
+2015 -05-19 16:31:28 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_0 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_1 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_2 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_3 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_4 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_5 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_6 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_7 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_8 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmset, key: testhmget_9 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmgetPipeline error:
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hmgetPipeline(JedisProxy.java:246)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hmgetPipeline(JedisProxyTest.java:261)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:28 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null hmgetPipeline, key: [[testhmget_0, field10], [testhmget_0, field20], [testhmget_1, field11], [testhmget_1, field21], [testhmget_2, field12], [testhmget_2, field22], [testhmget_3, field13], [testhmget_3, field23], [testhmget_4, field14], [testhmget_4, field24], [testhmget_5, field15], [testhmget_5, field25], [testhmget_6, field16], [testhmget_6, field26], [testhmget_7, field17], [testhmget_7, field27], [testhmget_8, field18], [testhmget_8, field28], [testhmget_9, field19], [testhmget_9, field29]] result:[value10, value20, value11, value21, value12, value22, value13, value23, value14, value24, value15, value25, value16, value26, value17, value27, value18, value28, value19, value29]
+2015 -05-19 16:31:28 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[[B@10d593e]
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[[B@15e0873]
+2015 -05-19 16:31:28 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49],1.0]]
+2015 -05-19 16:31:28 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null expireat, key: exp_k1 result:1
+2015 -05-19 16:31:28 REDIS (10.73.11.21)null get, key: exp_k1 result:val_k1
+2015 -05-19 16:31:32 REDIS (10.73.11.21)null get, key: exp_k1 result:null
+2015 -05-19 16:31:32 REDIS (10.73.11.21)null set, key: exp_k1 result:OK
+2015 -05-19 16:31:32 REDIS (10.73.11.21)null expire, key: exp_k1 result:1
+2015 -05-19 16:31:32 REDIS (10.73.11.21)null ttl, key: exp_k1 result:2
+2015 -05-19 16:31:32 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:32 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null set, key: test1 result:OK
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null decrBy, key: test1 result:3
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null get, key: test1 result:5
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null set, key: testincrBy result:OK
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null incrBy, key: testincrBy result:7
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null get, key: testincrBy result:7
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null set, key: testSet result:OK
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null get, key: testSet result:-1024
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null lpush, key: testlindex result:31
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null lpush, key: testlindex result:32
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null lpush, key: testlindex result:33
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null lindex, key: testlindex result:2
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zrevrank, key: zset result:3
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zcard, key: zset result:4
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zcount, key: zset result:2
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zcount, key: zset result:1
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null del, key: [zset] result:1
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zrange error:
+java.lang.ClassCastException: redis.clients.jedis.BinaryJedis$SetFromList cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zrange(JedisProxy.java:1198)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrange(JedisProxyTest.java:663)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zadd error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zadd(JedisProxy.java:1124)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrange(JedisProxyTest.java:664)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zrange, key: zset result:[[B@995a79]
+2015 -05-19 16:31:33 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:33 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null del, key: [test] result:1
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null getset, key: test result:[B@15311bd
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zrangeByScore, key: zset result:[[B@da18ac]
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zscore, key: zset result:1.0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zincrby, key: zset result:2.0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null zscore, key: zset result:2.0
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null del, key: [pfkey1] result:0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null pfadd fail:redis.clients.jedis.exceptions.JedisDataException: ERR unknown command 'PFADD'
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null pfcount fail:redis.clients.jedis.exceptions.JedisDataException: ERR unknown command 'PFCOUNT'
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null set, key: test result:OK
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null del, key: [test, noExist] result:1
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null get, key: test result:-1024
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null set, key: testdecr result:OK
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null decr, key: testdecr result:4
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null get, key: testdecr result:5
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hset, key: testhdel result:1
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hget, key: testhdel result:123
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hdel, key: testhdel result:1
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hget, key: testhdel result:null
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hmset, key: testhlen result:OK
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hlen, key: testhlen result:2
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hlen, key: testhlen result:2
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hset, key: testhset result:0
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hget, key: testhset result:va
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null hget, key: testhset result:[B@d56b37
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null set, key: testincr result:OK
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null incr, key: testincr result:6
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null get, key: testincr result:6
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null incr, key: testincr result:7
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null get, key: testincr result:7
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null lpush, key: testllen result:5
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null llen, key: testllen result:5
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null lpush, key: testllen result:6
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null llen, key: testllen result:6
+2015 -05-19 16:31:34 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null del, key: testlrem result:true
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null lpush, key: testlrem result:6
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null lpush, key: testlrem result:7
+2015 -05-19 16:31:34 REDIS (10.73.11.21)null lpush, key: testlrem result:8
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrem, key: testlrem result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrange, key: testlrem result:[3, 2, 4, 3, 2]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlrem result:8
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlrem result:9
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrem, key: testlrem result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrange, key: testlrem result:[4, 3, 2]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlrem result:9
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlrem result:10
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrem, key: testlrem result:2
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lrange, key: testlrem result:[4, 3, 2, 4, 3, 2]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlset result:7
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlset result:8
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlset result:9
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lindex, key: testlset result:2
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lset, key: testlset result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lindex, key: testlset result:5
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lset, key: testlset result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lindex, key: testlset result:6
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null set, key: testmget result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null set, key: test2 result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null set, key: test3 result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3, noExist] result:[1, 2, 3, null]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3, noExist] result:[1, 2, 3, null]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null mget, key: [testmget, test2, test3] result:[[B@1963b3e, [B@b6548, [B@269997]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null mset, key: [testmset, 1, test2, 2, test3, 3] result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null mget, key: [testmset, test2, test3, noExist] result:[null, 2, 3, null]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zscore, key: zset result:3.0
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zadd error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zadd(JedisProxy.java:1124)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrem(JedisProxyTest.java:594)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zcard, key: zset result:4
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zrem, key: zset result:1
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null zcard, key: zset result:0
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmset, key: testkeys result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hkeys, key: testkeys result:[fa, fb]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hkeys, key: testkeys result:[[B@17200b4, [B@18c3679]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmset, key: testhmget result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmget, key: testhmget result:[v1, vb]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmget, key: testhmget result:[v1, vb]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmget, key: testhmget result:[[B@fced4, [B@1d3cdaa]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hmset, key: testhvals result:OK
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hvals, key: testhvals result:[vb, v1]
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null hvals, key: testhvals result:[[B@16dfa45, [B@149eb9f]
+2015 -05-19 16:31:35 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null del, key: testlpush result:true
+2015 -05-19 16:31:35 REDIS (10.73.11.21)null lpush, key: testlpush result:4
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lpush, key: testlpush result:5
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lpush, key: testlpush result:6
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lrange, key: testlpush result:[2, 1, 3]
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null del, key: testltrim result:true
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lpush, key: testltrim result:3
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lpush, key: testltrim result:4
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lpush, key: testltrim result:5
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null ltrim, key: testltrim result:OK
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lrange, key: testltrim result:[2, 1]
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null rpush, key: testltrim result:3
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lrange, key: testltrim result:[[B@1a85d38, [B@8046f4, [B@1b273cc]
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null ltrim, key: testltrim result:OK
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lrange, key: testltrim result:[[B@d05c13, [B@14d1d41]
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null del, key: testrpush result:true
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null rpush, key: testrpush result:4
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null rpush, key: testrpush result:5
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null rpush, key: testrpush result:6
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null lrange, key: testrpush result:[1, 2, 3]
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zcard, key: zset result:3
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zrank, key: zset result:0
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zcard, key: zset result:1
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zremrangeByScore, key: zset result:2
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null zcard, key: zset result:2
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null set, key: test result:OK
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null del, key: test result:true
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null get, key: test result:-1024
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null del, key: testhmexists result:true
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hexists, key: testhmexists result:true
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hmexists, key: testhmexists result:[true, true, false]
+2015 -05-19 16:31:36 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hmset, key: testhgetAll result:OK
+2015 -05-19 16:31:36 REDIS (10.73.11.21)null hgetAll, key: testhgetAll result:{fa=v1, fb=vb}
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hgetAll error:
+java.lang.ClassCastException: redis.clients.util.JedisByteHashMap cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.hgetAll(JedisProxy.java:830)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.hgetAll(JedisProxyTest.java:383)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhincrBy result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hincrBy, key: testhincrBy result:3
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hget, key: testhincrBy result:3
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hincrBy, key: testhincrBy result:5
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hget, key: testhincrBy result:5
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null del error:
+java.lang.ClassCastException: java.lang.Boolean cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.del(JedisProxy.java:355)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zrevrangeWithScores(JedisProxyTest.java:795)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zadd, key: zset result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zrevrangeWithScores, key: zset result:[[[109, 101, 109, 49, 50],3.0], [[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null set, key: testexists result:OK
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null exists, key: testexists result:true
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zrem, key: zset result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zadd, key: zset result:1
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zrangeByScoreWithScores, key: zset result:[[[109, 101, 109, 49],1.0], [[109, 101, 109, 49, 49],1.0]]
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null del, key: test result:true
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null getset error:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -495
+	at java.lang.String.substring(String.java:1938)
+	at java.lang.String.substring(String.java:1905)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.getset(JedisProxy.java:1655)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.getsetCommand(JedisProxyTest.java:835)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null del, key: testhmdelete result:true
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmdelete result:1
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmdelete result:1
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmdelete result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hmdelete, key: testhmdelete result:[1, 1]
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hkeys, key: testhmdelete result:[f3, f2, f1]
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null del, key: testhmexists result:true
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hset, key: testhmexists result:0
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null hmexists, key: testhmexists result:[true, true, false]
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:37 REDIS (10.73.11.21)null zadd error:
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.String
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1521)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1500)
+	at cn.sina.dsp.jedisproxy.JedisProxy.callable(JedisProxy.java:1496)
+	at cn.sina.dsp.jedisproxy.JedisProxy.zadd(JedisProxy.java:1124)
+	at redis.clients.jedisProxy.tests.JedisProxyTest.zremrangeByRank(JedisProxyTest.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+2015 -05-19 16:31:37 ip地址：10.73.11.21, 22223
+2015 -05-19 16:31:38 REDIS (10.73.11.21)null zcard, key: zset result:2
+2015 -05-19 16:31:38 REDIS (10.73.11.21)null zremrangeByRank, key: zset result:1
+2015 -05-19 16:31:38 REDIS (10.73.11.21)null zcard, key: zset result:3
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:04 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:05 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:06 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:07 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:08 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:09 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:10 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:11 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:12 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:13 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:14 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223
+2015 -05-19 16:33:15 ip地址：10.73.11.21, 22223

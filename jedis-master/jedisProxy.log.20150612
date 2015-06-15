@@ -1,0 +1,13 @@
+2015 -06-12 17:53:49 ip地址：10.13.8.33, 20001
+2015 -06-12 17:55:13 ip地址：10.13.8.33, 30000
+2015 -06-12 17:55:56 ip地址：10.73.11.21, 30000
+2015 -06-12 17:55:57 ip地址：10.73.11.21, 30000
+2015 -06-12 17:56:21 ip地址：10.73.11.21, 30000
+2015 -06-12 18:01:51 ip地址：10.73.11.21, 22223
+2015 -06-12 18:01:52 cn.sina.dsp.jedisproxy.JedisProxy@5b0668 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-12 18:01:52 ip地址：10.73.11.21, 22223
+2015 -06-12 18:01:53 cn.sina.dsp.jedisproxy.JedisProxy@5b0668 set fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-12 18:01:53 ip地址：10.73.11.21, 22223
+2015 -06-12 18:01:54 cn.sina.dsp.jedisproxy.JedisProxy@5b0668 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2015 -06-12 18:01:54 ip地址：10.73.11.21, 22223
+2015 -06-12 18:01:55 cn.sina.dsp.jedisproxy.JedisProxy@5b0668 get fail:redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
